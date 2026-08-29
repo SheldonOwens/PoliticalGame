@@ -1,0 +1,28 @@
+# Ren'Py compiled/cache
+**/cache/
+*.rpyc
+*.rpymc
+
+# Ren'Py save data (local playtesting saves — don't want these in the repo)
+game/saves/
+
+# Ren'Py backups (auto-generated .rpy backups on save)
+*.bak
+
+# Build/distribution output
+**/dist/
+
+# Ren'Py launcher project-specific temp files
+game/**/*.txt.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Persistent data (per-player Ren'Py persistent storage, if it leaks into project dir)
+game/persistent
